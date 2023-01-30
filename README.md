@@ -5,20 +5,20 @@
 ## 저자: 원일용
 
 ## PART Ⅰ CPU 던전
-[x] STAGE 0 로그인
-[x] STAGE 1 기본 개념의 숲
-[ ] STAGE 2 사칙 연산의 숲
-[ ] STAGE 3 논리 연산의 숲
-[ ] STAGE 4 반복의 숲
-[ ] STAGE 5 모듈 프로그래밍의 광야
+- [x] STAGE 0 로그인
+- [x] STAGE 1 기본 개념의 숲
+- [ ] STAGE 2 사칙 연산의 숲
+- [ ] STAGE 3 논리 연산의 숲
+- [ ] STAGE 4 반복의 숲
+- [ ] STAGE 5 모듈 프로그래밍의 광야
 
 ## PART Ⅱ MS-Windows 던전
-[ ] STAGE 6 외부 모듈 확장의 바다(MS-Windows)
-[ ] STAGE 7 커널 서비스의 사막(MS-Windows)
+- [ ] STAGE 6 외부 모듈 확장의 바다(MS-Windows)
+- [ ] STAGE 7 커널 서비스의 사막(MS-Windows)
 
 ## PART Ⅲ Linux 던전
-[ ] STAGE 8 외부 모듈 확장의 바다(Linux)
-[ ] STAGE 9 시스템 콜의 사막(Linux)
+- [ ] STAGE 8 외부 모듈 확장의 바다(Linux)
+- [ ] STAGE 9 시스템 콜의 사막(Linux)
 
 ##PART Ⅳ MS-DOS 던전
-[ ] STAGE 10 잊혀진 사막(16bit MS-DOS)
+- [ ] STAGE 10 잊혀진 사막(16bit MS-DOS)
