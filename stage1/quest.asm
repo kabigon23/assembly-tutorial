@@ -3,6 +3,7 @@
 section .text
 global CMAIN
 CMAIN:
+    ;[퀘스트] 데이터 옮기기
     ;write your code here
     mov al, [a]
     mov [e], al
