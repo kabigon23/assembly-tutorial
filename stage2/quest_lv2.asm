@@ -1,3 +1,4 @@
+;
 %include "io64.inc"
 
 section .text
