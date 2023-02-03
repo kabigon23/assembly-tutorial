@@ -1,6 +1,5 @@
-;
 %include "io64.inc"
-
+;four arithmetic operations
 section .text
 global CMAIN
 CMAIN:
