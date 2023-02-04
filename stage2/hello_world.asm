@@ -1,5 +1,5 @@
 %include "io64.inc"
-
+;print "Hello world"
 section .text
 global CMAIN
 CMAIN:
