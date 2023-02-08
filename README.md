@@ -11,7 +11,7 @@
 - [x] STAGE 0 로그인
 - [x] STAGE 1 기본 개념의 숲
 - [x] STAGE 2 사칙 연산의 숲
-- [ ] STAGE 3 논리 연산의 숲
+- [x] STAGE 3 논리 연산의 숲
 - [ ] STAGE 4 반복의 숲
 - [ ] STAGE 5 모듈 프로그래밍의 광야
 
