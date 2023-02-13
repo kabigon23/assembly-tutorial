@@ -6,6 +6,9 @@ global main
 main:
     mov rbp, rsp; for correct debugging
     ;write your code here
+    PRINT_STRING msg_input
+    NEWLINE
+    
     GET_DEC 2, data_max
     xor eax, eax
     xor edx, edx
@@ -26,9 +29,40 @@ L3:
     inc dx
     cmp dx, [data_max]
     jle L1
+    xor eax, eax
+    xor edx, edx
+    PRINT_STRING msg_mulof3
+    NEWLINE
+L4:    
+    xor ebx, ebx
+    mov bx, [data+eax*2]
+    add [total], bx
+    
+    PRINT_DEC 2, bx
+    PRINT_STRING msg_space
+    
+    inc ax
+    cmp ax, [data_size]
+    jl L4
+    NEWLINE
+    PRINT_STRING msg_line
+    NEWLINE
+    PRINT_STRING msg_cnt
+    PRINT_DEC 2, data_size
+    NEWLINE
+    PRINT_STRING msg_total
+    PRINT_DEC 2, total
+    NEWLINE
     
     xor rax, rax
     ret
+section .data
+    msg_space db ' ', 0x00
+    msg_input db 'Input number: ', 0x00
+    msg_mulof3 db '----------Multiples of 3 list----------', 0x00
+    msg_line db '-----------------------------------------------', 0x00
+    msg_cnt db 'Count of multiples of 3: ', 0x00
+    msg_total db 'Total: ', 0x00
 
 section .bss
     data_max resw 1
