@@ -13,7 +13,7 @@
 - [x] STAGE 2 사칙 연산의 숲
 - [x] STAGE 3 논리 연산의 숲
 - [x] STAGE 4 반복의 숲
-- [ ] STAGE 5 모듈 프로그래밍의 광야
+- [x] STAGE 5 모듈 프로그래밍의 광야
 
 ## PART Ⅱ MS-Windows 던전
 - [ ] STAGE 6 외부 모듈 확장의 바다(MS-Windows)
