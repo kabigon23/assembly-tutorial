@@ -10,6 +10,7 @@ main:
     call inimylib
     mov [cnt], dword 0
     mov [check_cnt], dword 0
+    PRINT_STRING msg_lotto
 GET_NUM:
     call get_number
     cmp dword [cnt], 0
@@ -28,11 +29,12 @@ GO:
     mov edx, dword [cnt]
     mov [data+4*edx], eax
     PRINT_DEC 4, eax
-    NEWLINE
+    PRINT_STRING msg_space
     inc dword [cnt]
     cmp dword [cnt], 6
     jne GET_NUM
-    
+    NEWLINE
+ 
     xor eax, eax
     ret    
 CHECKSAME:
@@ -52,6 +54,7 @@ NOTSAME:
         
 section .data
     msg_lotto db "Lotto: ", 0x00
+    msg_space db " ", 0x00
 section .bss
     data resd 6
     cnt resd 1
