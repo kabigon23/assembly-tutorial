@@ -20,7 +20,7 @@
 - [ ] STAGE 7 커널 서비스의 사막(MS-Windows)
 
 ## PART Ⅲ Linux 던전
-- [ ] STAGE 8 외부 모듈 확장의 바다(Linux)
+- [x] STAGE 8 외부 모듈 확장의 바다(Linux)
 - [ ] STAGE 9 시스템 콜의 사막(Linux)
 
 ##PART Ⅳ MS-DOS 던전
