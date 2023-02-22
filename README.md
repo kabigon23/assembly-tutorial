@@ -16,8 +16,8 @@
 - [x] STAGE 5 모듈 프로그래밍의 광야
 
 ## PART Ⅱ MS-Windows 던전
-- [ ] STAGE 6 외부 모듈 확장의 바다(MS-Windows)
-- [ ] STAGE 7 커널 서비스의 사막(MS-Windows)
+- [ ] STAGE 6 외부 모듈 확장의 바다(MS-Windows) skip
+- [ ] STAGE 7 커널 서비스의 사막(MS-Windows) skip
 
 ## PART Ⅲ Linux 던전
 - [x] STAGE 8 외부 모듈 확장의 바다(Linux)
